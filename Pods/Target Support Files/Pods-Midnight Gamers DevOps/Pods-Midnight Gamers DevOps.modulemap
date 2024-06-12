@@ -1,0 +1,6 @@
+framework module Pods_Midnight_Gamers_DevOps {
+  umbrella header "Pods-Midnight Gamers DevOps-umbrella.h"
+
+  export *
+  module * { export * }
+}

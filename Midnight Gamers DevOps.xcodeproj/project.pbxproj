@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470EB2386E068F8EE4B0F1C1 /* Pods_Midnight_Gamers_DevOps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59E28CB6A2E38860AE0CBCD /* Pods_Midnight_Gamers_DevOps.framework */; };
 		CC6B07782C1A25D60055DF1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07772C1A25D60055DF1B /* AppDelegate.swift */; };
 		CC6B077A2C1A25D60055DF1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07792C1A25D60055DF1B /* SceneDelegate.swift */; };
 		CC6B077C2C1A25D60055DF1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B077B2C1A25D60055DF1B /* ViewController.swift */; };
 		CC6B077F2C1A25D60055DF1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC6B077E2C1A25D60055DF1B /* Base */; };
 		CC6B07812C1A25D70055DF1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6B07802C1A25D70055DF1B /* Assets.xcassets */; };
 		CC6B07842C1A25D70055DF1B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CC6B07832C1A25D70055DF1B /* Base */; };
+		CC6B078C2C1A328A0055DF1B /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B078B2C1A328A0055DF1B /* Authentication.storyboard */; };
+		CC6B078E2C1A32930055DF1B /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B078D2C1A32930055DF1B /* Dashboard.storyboard */; };
+		CC6B07902C1A32970055DF1B /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B078F2C1A32970055DF1B /* Logs.storyboard */; };
+		CC6B07922C1A329E0055DF1B /* Analytics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B07912C1A329E0055DF1B /* Analytics.storyboard */; };
+		CC6B07942C1A32AE0055DF1B /* GitHub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B07932C1A32AE0055DF1B /* GitHub.storyboard */; };
+		CC6B07962C1A32B50055DF1B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B07952C1A32B50055DF1B /* Settings.storyboard */; };
+		CC6B07992C1A33120055DF1B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07982C1A33120055DF1B /* Log.swift */; };
+		CC6B079C2C1A33250055DF1B /* AnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B079B2C1A33250055DF1B /* AnalyticsData.swift */; };
+		CC6B079E2C1A33310055DF1B /* GitHubActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B079D2C1A33310055DF1B /* GitHubActivity.swift */; };
+		CC6B07A02C1A333B0055DF1B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B079F2C1A333B0055DF1B /* User.swift */; };
+		CC6B07A22C1A334E0055DF1B /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07A12C1A334E0055DF1B /* AuthenticationViewModel.swift */; };
+		CC6B07A42C1A33550055DF1B /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07A32C1A33550055DF1B /* DashboardViewModel.swift */; };
+		CC6B07A62C1A335B0055DF1B /* LogsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07A52C1A335B0055DF1B /* LogsViewModel.swift */; };
+		CC6B07A82C1A33620055DF1B /* AnalyticsviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07A72C1A33620055DF1B /* AnalyticsviewModel.swift */; };
+		CC6B07AA2C1A33700055DF1B /* GithubViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07A92C1A33700055DF1B /* GithubViewModel.swift */; };
+		CC6B07AC2C1A338F0055DF1B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07AB2C1A338F0055DF1B /* SettingsViewModel.swift */; };
+		CC6B07B12C1A34030055DF1B /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07B02C1A34030055DF1B /* AuthenticationViewController.swift */; };
+		CC6B07B32C1A340A0055DF1B /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07B22C1A340A0055DF1B /* DashboardViewController.swift */; };
+		CC6B07B52C1A34110055DF1B /* LogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07B42C1A34110055DF1B /* LogsViewController.swift */; };
+		CC6B07B72C1A34320055DF1B /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07B62C1A34320055DF1B /* AnalyticsViewController.swift */; };
+		CC6B07B92C1A34420055DF1B /* GitHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07B82C1A34420055DF1B /* GitHubViewController.swift */; };
+		CC6B07BB2C1A344C0055DF1B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07BA2C1A344C0055DF1B /* SettingsViewController.swift */; };
+		CC6B07BD2C1A34540055DF1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07BC2C1A34540055DF1B /* NetworkManager.swift */; };
+		CC6B07C02C1A346B0055DF1B /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07BF2C1A346B0055DF1B /* DateFormatter.swift */; };
+		CC6B07C32C1A34800055DF1B /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6B07C22C1A34800055DF1B /* NetworkReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADDF488CA0AE47CCFA25663D /* Pods-Midnight Gamers DevOps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midnight Gamers DevOps.debug.xcconfig"; path = "Target Support Files/Pods-Midnight Gamers DevOps/Pods-Midnight Gamers DevOps.debug.xcconfig"; sourceTree = "<group>"; };
 		CC6B07742C1A25D60055DF1B /* Midnight Gamers DevOps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midnight Gamers DevOps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6B07772C1A25D60055DF1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6B07792C1A25D60055DF1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,33 @@
 		CC6B07802C1A25D70055DF1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC6B07832C1A25D70055DF1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC6B07852C1A25D70055DF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6B078B2C1A328A0055DF1B /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		CC6B078D2C1A32930055DF1B /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		CC6B078F2C1A32970055DF1B /* Logs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
+		CC6B07912C1A329E0055DF1B /* Analytics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Analytics.storyboard; sourceTree = "<group>"; };
+		CC6B07932C1A32AE0055DF1B /* GitHub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GitHub.storyboard; sourceTree = "<group>"; };
+		CC6B07952C1A32B50055DF1B /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		CC6B07982C1A33120055DF1B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CC6B079B2C1A33250055DF1B /* AnalyticsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsData.swift; sourceTree = "<group>"; };
+		CC6B079D2C1A33310055DF1B /* GitHubActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubActivity.swift; sourceTree = "<group>"; };
+		CC6B079F2C1A333B0055DF1B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CC6B07A12C1A334E0055DF1B /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CC6B07A32C1A33550055DF1B /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		CC6B07A52C1A335B0055DF1B /* LogsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewModel.swift; sourceTree = "<group>"; };
+		CC6B07A72C1A33620055DF1B /* AnalyticsviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsviewModel.swift; sourceTree = "<group>"; };
+		CC6B07A92C1A33700055DF1B /* GithubViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubViewModel.swift; sourceTree = "<group>"; };
+		CC6B07AB2C1A338F0055DF1B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		CC6B07B02C1A34030055DF1B /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		CC6B07B22C1A340A0055DF1B /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CC6B07B42C1A34110055DF1B /* LogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsViewController.swift; sourceTree = "<group>"; };
+		CC6B07B62C1A34320055DF1B /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		CC6B07B82C1A34420055DF1B /* GitHubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewController.swift; sourceTree = "<group>"; };
+		CC6B07BA2C1A344C0055DF1B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CC6B07BC2C1A34540055DF1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CC6B07BF2C1A346B0055DF1B /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		CC6B07C22C1A34800055DF1B /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		D59E28CB6A2E38860AE0CBCD /* Pods_Midnight_Gamers_DevOps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Midnight_Gamers_DevOps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA51F6BFC28677B3FEAD1F4 /* Pods-Midnight Gamers DevOps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Midnight Gamers DevOps.release.xcconfig"; path = "Target Support Files/Pods-Midnight Gamers DevOps/Pods-Midnight Gamers DevOps.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470EB2386E068F8EE4B0F1C1 /* Pods_Midnight_Gamers_DevOps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0289CCDD7B72D213DB462F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D59E28CB6A2E38860AE0CBCD /* Pods_Midnight_Gamers_DevOps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		230A9137E243F39D036F9094 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADDF488CA0AE47CCFA25663D /* Pods-Midnight Gamers DevOps.debug.xcconfig */,
+				DBA51F6BFC28677B3FEAD1F4 /* Pods-Midnight Gamers DevOps.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC6B076B2C1A25D60055DF1B = {
 			isa = PBXGroup;
 			children = (
 				CC6B07762C1A25D60055DF1B /* Midnight Gamers DevOps */,
 				CC6B07752C1A25D60055DF1B /* Products */,
+				230A9137E243F39D036F9094 /* Pods */,
+				0289CCDD7B72D213DB462F4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +133,86 @@
 			children = (
 				CC6B07772C1A25D60055DF1B /* AppDelegate.swift */,
 				CC6B07792C1A25D60055DF1B /* SceneDelegate.swift */,
-				CC6B077B2C1A25D60055DF1B /* ViewController.swift */,
-				CC6B077D2C1A25D60055DF1B /* Main.storyboard */,
-				CC6B07802C1A25D70055DF1B /* Assets.xcassets */,
-				CC6B07822C1A25D70055DF1B /* LaunchScreen.storyboard */,
+				CC6B07C12C1A34700055DF1B /* Utilities */,
+				CC6B07BE2C1A345C0055DF1B /* Services */,
+				CC6B07AF2C1A33E80055DF1B /* Views */,
+				CC6B07972C1A32FF0055DF1B /* Resources */,
+				CC6B07AE2C1A33AD0055DF1B /* ViewModels */,
+				CC6B079A2C1A331B0055DF1B /* Models */,
 				CC6B07852C1A25D70055DF1B /* Info.plist */,
 			);
 			path = "Midnight Gamers DevOps";
+			sourceTree = "<group>";
+		};
+		CC6B07972C1A32FF0055DF1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B077D2C1A25D60055DF1B /* Main.storyboard */,
+				CC6B078B2C1A328A0055DF1B /* Authentication.storyboard */,
+				CC6B078D2C1A32930055DF1B /* Dashboard.storyboard */,
+				CC6B078F2C1A32970055DF1B /* Logs.storyboard */,
+				CC6B07912C1A329E0055DF1B /* Analytics.storyboard */,
+				CC6B07932C1A32AE0055DF1B /* GitHub.storyboard */,
+				CC6B07952C1A32B50055DF1B /* Settings.storyboard */,
+				CC6B07802C1A25D70055DF1B /* Assets.xcassets */,
+				CC6B07822C1A25D70055DF1B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC6B079A2C1A331B0055DF1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B07982C1A33120055DF1B /* Log.swift */,
+				CC6B079B2C1A33250055DF1B /* AnalyticsData.swift */,
+				CC6B079D2C1A33310055DF1B /* GitHubActivity.swift */,
+				CC6B079F2C1A333B0055DF1B /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC6B07AE2C1A33AD0055DF1B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B07A12C1A334E0055DF1B /* AuthenticationViewModel.swift */,
+				CC6B07A32C1A33550055DF1B /* DashboardViewModel.swift */,
+				CC6B07A52C1A335B0055DF1B /* LogsViewModel.swift */,
+				CC6B07A72C1A33620055DF1B /* AnalyticsviewModel.swift */,
+				CC6B07A92C1A33700055DF1B /* GithubViewModel.swift */,
+				CC6B07AB2C1A338F0055DF1B /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC6B07AF2C1A33E80055DF1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B077B2C1A25D60055DF1B /* ViewController.swift */,
+				CC6B07B02C1A34030055DF1B /* AuthenticationViewController.swift */,
+				CC6B07B22C1A340A0055DF1B /* DashboardViewController.swift */,
+				CC6B07B42C1A34110055DF1B /* LogsViewController.swift */,
+				CC6B07B62C1A34320055DF1B /* AnalyticsViewController.swift */,
+				CC6B07B82C1A34420055DF1B /* GitHubViewController.swift */,
+				CC6B07BA2C1A344C0055DF1B /* SettingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC6B07BE2C1A345C0055DF1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B07BC2C1A34540055DF1B /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC6B07C12C1A34700055DF1B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC6B07BF2C1A346B0055DF1B /* DateFormatter.swift */,
+				CC6B07C22C1A34800055DF1B /* NetworkReachability.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6B07882C1A25D70055DF1B /* Build configuration list for PBXNativeTarget "Midnight Gamers DevOps" */;
 			buildPhases = (
+				CD899F42822C147C759D93DF /* [CP] Check Pods Manifest.lock */,
 				CC6B07702C1A25D60055DF1B /* Sources */,
 				CC6B07712C1A25D60055DF1B /* Frameworks */,
 				CC6B07722C1A25D60055DF1B /* Resources */,
+				5B0098A8BFC5567CFFF89DEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +275,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6B078C2C1A328A0055DF1B /* Authentication.storyboard in Resources */,
+				CC6B078E2C1A32930055DF1B /* Dashboard.storyboard in Resources */,
 				CC6B07812C1A25D70055DF1B /* Assets.xcassets in Resources */,
+				CC6B07942C1A32AE0055DF1B /* GitHub.storyboard in Resources */,
+				CC6B07902C1A32970055DF1B /* Logs.storyboard in Resources */,
+				CC6B07922C1A329E0055DF1B /* Analytics.storyboard in Resources */,
+				CC6B07962C1A32B50055DF1B /* Settings.storyboard in Resources */,
 				CC6B07842C1A25D70055DF1B /* Base in Resources */,
 				CC6B077F2C1A25D60055DF1B /* Base in Resources */,
 			);
@@ -133,14 +289,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B0098A8BFC5567CFFF89DEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Midnight Gamers DevOps/Pods-Midnight Gamers DevOps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Midnight Gamers DevOps/Pods-Midnight Gamers DevOps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Midnight Gamers DevOps/Pods-Midnight Gamers DevOps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD899F42822C147C759D93DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Midnight Gamers DevOps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC6B07702C1A25D60055DF1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC6B077C2C1A25D60055DF1B /* ViewController.swift in Sources */,
+				CC6B07A62C1A335B0055DF1B /* LogsViewModel.swift in Sources */,
 				CC6B07782C1A25D60055DF1B /* AppDelegate.swift in Sources */,
+				CC6B07C02C1A346B0055DF1B /* DateFormatter.swift in Sources */,
+				CC6B07AA2C1A33700055DF1B /* GithubViewModel.swift in Sources */,
+				CC6B07992C1A33120055DF1B /* Log.swift in Sources */,
+				CC6B07BB2C1A344C0055DF1B /* SettingsViewController.swift in Sources */,
+				CC6B07A42C1A33550055DF1B /* DashboardViewModel.swift in Sources */,
+				CC6B079E2C1A33310055DF1B /* GitHubActivity.swift in Sources */,
+				CC6B07B32C1A340A0055DF1B /* DashboardViewController.swift in Sources */,
+				CC6B07A82C1A33620055DF1B /* AnalyticsviewModel.swift in Sources */,
+				CC6B07C32C1A34800055DF1B /* NetworkReachability.swift in Sources */,
+				CC6B07B92C1A34420055DF1B /* GitHubViewController.swift in Sources */,
+				CC6B07AC2C1A338F0055DF1B /* SettingsViewModel.swift in Sources */,
+				CC6B07BD2C1A34540055DF1B /* NetworkManager.swift in Sources */,
+				CC6B07B52C1A34110055DF1B /* LogsViewController.swift in Sources */,
+				CC6B07A22C1A334E0055DF1B /* AuthenticationViewModel.swift in Sources */,
+				CC6B07B12C1A34030055DF1B /* AuthenticationViewController.swift in Sources */,
+				CC6B079C2C1A33250055DF1B /* AnalyticsData.swift in Sources */,
 				CC6B077A2C1A25D60055DF1B /* SceneDelegate.swift in Sources */,
+				CC6B07A02C1A333B0055DF1B /* User.swift in Sources */,
+				CC6B07B72C1A34320055DF1B /* AnalyticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +504,7 @@
 		};
 		CC6B07892C1A25D70055DF1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDF488CA0AE47CCFA25663D /* Pods-Midnight Gamers DevOps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +533,7 @@
 		};
 		CC6B078A2C1A25D70055DF1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA51F6BFC28677B3FEAD1F4 /* Pods-Midnight Gamers DevOps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
