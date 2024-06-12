@@ -1,0 +1,102 @@
+# Xcode
+.DS_Store
+UserInterfaceState.xcuserstate
+
+# Xcode 8 and earlier
+xcuserdata
+*.xcscmblueprint
+*.xcuserstate
+
+# Xcode 9 and later
+*.xccheckout
+*.xcuserstate
+*.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/report.html
+
+# Realm
+*.realm
+*.realm.lock
+*.realm.management/
+
+# Firebase
+GoogleService-Info.plist
+
+# Archives
+*.xcarchive
+
+# Derived data
+DerivedData/
+
+# App data
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Symbolication
+*.bcsymbolmap
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.resolved
+
+# User-specific files
+*.swp
+*.swo
+*~
+
+# AppCenter
+**/appcenter-config.json
+
+# Editor directories and files
+.idea/
+*.iml
+*.swp
+*~.nib
+
+# Unit test output
+test-output/
+
+# Build generated
+build/
+Build/
+*.ipa
+*.dSYM
+*.xcworkspace
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Secrets
+secrets.*
+
+# Ignore linting outputs
+*.xcovreport
+*.xccovreport
+*.xccovarchive
